@@ -1,0 +1,146 @@
+{
+  "contractName": "MomContracts",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.21+commit.d9974bed\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/MomContract.sol\":\"MomContracts\"},\"evmVersion\":\"shanghai\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/DaughterContract.sol\":{\"keccak256\":\"0xd78f3f857157b935458222d1e6272a626ca045e06ec9c1bb9bb276638f480bee\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://6c91f83819b8ffc782ab8601572bbbd510292f039aa28b957bb17ca7aa53d458\",\"dweb:/ipfs/QmTYGDK9NAyhXQ1FE4wqR9sCNGMxiw7PK2jZR3HCX7hvM5\"]},\"project:/contracts/MomContract.sol\":{\"keccak256\":\"0x011784675a0eb724703af398f48ff652d54a105d1ee7d3689e0c906c9fa82cf2\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://e5dd9ba32aa383151beafe42ab9a7f9e46011aaca1dc7c35f3e3381f6f796867\",\"dweb:/ipfs/QmfWaRe1wwNvnufxXRQWxd2ms7EB5JrCSJeFCRUBWxW3Xg\"]}},\"version\":1}",
+  "bytecode": "0x608060405260225f553480156012575f80fd5b50603e80601e5f395ff3fe60806040525f80fdfea2646970667358221220d77c9843e55d12f1ecbce174ca141241c0ca980a002598259d00cb54eefe217a64736f6c63430008150033",
+  "deployedBytecode": "0x60806040525f80fdfea2646970667358221220d77c9843e55d12f1ecbce174ca141241c0ca980a002598259d00cb54eefe217a64736f6c63430008150033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "99:40:1:-:0;;;134:2;124:12;;99:40;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "99:40:1:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.9.0;\n\nimport \"./DaughterContract.sol\";\ncontract MomContracts {\n int sol = 34;\n}",
+  "sourcePath": "/home/mohit/MohitDB/Learning/solidity/contracts/MomContract.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/MomContract.sol",
+    "exportedSymbols": {
+      "DaughterContract": [
+        22
+      ],
+      "MomContracts": [
+        29
+      ]
+    },
+    "id": 30,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 24,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:32:1"
+      },
+      {
+        "absolutePath": "project:/contracts/DaughterContract.sol",
+        "file": "./DaughterContract.sol",
+        "id": 25,
+        "nameLocation": "-1:-1:-1",
+        "nodeType": "ImportDirective",
+        "scope": 30,
+        "sourceUnit": 23,
+        "src": "66:32:1",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "MomContracts",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 29,
+        "linearizedBaseContracts": [
+          29
+        ],
+        "name": "MomContracts",
+        "nameLocation": "108:12:1",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 28,
+            "mutability": "mutable",
+            "name": "sol",
+            "nameLocation": "128:3:1",
+            "nodeType": "VariableDeclaration",
+            "scope": 29,
+            "src": "124:12:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_int256",
+              "typeString": "int256"
+            },
+            "typeName": {
+              "id": 26,
+              "name": "int",
+              "nodeType": "ElementaryTypeName",
+              "src": "124:3:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_int256",
+                "typeString": "int256"
+              }
+            },
+            "value": {
+              "hexValue": "3334",
+              "id": 27,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "134:2:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_rational_34_by_1",
+                "typeString": "int_const 34"
+              },
+              "value": "34"
+            },
+            "visibility": "internal"
+          }
+        ],
+        "scope": 30,
+        "src": "99:40:1",
+        "usedErrors": [],
+        "usedEvents": []
+      }
+    ],
+    "src": "32:107:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.21+commit.d9974bed.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x97f8d907890E2e40A34414fA9292aF1E5BB2E23d",
+      "transactionHash": "0x53f27c0469d5eb0e52e8f629b05022c2aa3a176871baed45361567a57bad1925"
+    }
+  },
+  "schemaVersion": "3.4.16",
+  "updatedAt": "2023-12-09T06:00:37.253Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
