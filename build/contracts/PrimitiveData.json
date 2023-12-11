@@ -444,12 +444,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0xB0f2959a52764c11dCc14ACCA9ac9Fc31CaEe614",
-      "transactionHash": "0xfc0d90b40d13550d2e4cc6dc0e799f4220e228b550ee065a55db6d3db7c406fa"
+      "address": "0x9d4105701D405BF1e8B6A8a92D4F1DBbA00e5379",
+      "transactionHash": "0xbaff04ed305ac5f0f4ac0e25f2c511703542068dc985f4f6ee7f4907f1275d2f"
     }
   },
   "schemaVersion": "3.4.16",
-  "updatedAt": "2023-12-09T17:23:39.928Z",
+  "updatedAt": "2023-12-09T17:28:27.399Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
